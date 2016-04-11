@@ -1,0 +1,205 @@
+body {
+  padding-bottom: 0px;
+}
+
+.navbar-brand>img {
+  display: inline;
+}
+
+/* ===================
+    Heading & Paragraph
+   =================== */
+
+.none {
+  display: none;
+}
+
+.hack-heading,
+.hack-heading2 {
+  font-weight: 200;
+  font-family: 'Open Sans', sans-serif; /*Modify Font and Weight*/
+}
+
+.hack-heading2 {
+  font-weight: 500;
+}
+
+.hack-heading strong {
+  font-weight: 600;
+}
+
+.hack-paragraph {
+  color: #999999;
+  font-size: 1.1em;
+  line-height: 1.8em;
+}
+
+/* ===================
+    Menu
+   =================== */
+
+.navbar-inverse {
+  background-color: #242424; /*Modify Menu Background Color*/
+  border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav>li>a { color: #c0c0c0;} /*Modify Link Elements Color*/
+.navbar-inverse .navbar-nav>li>a:hover { color: #FFF;} /*Modify Link Elements Color*/
+
+/* ===================
+    Carousel
+   =================== */
+
+.carousel {
+  margin-bottom: 0px;
+}
+
+.carousel .item {
+  background-color: #2f2f2f;
+  /*background-image: url(../images/bg_light.png);*/ /*Modify to add a Background Image*/
+}
+
+.carousel-indicators {
+  /*display: none;*/ /*show/hide Carousel Indicators*/
+}
+
+.carousel-controls {
+  /*display: none;*/ /*show/hide Carousel directions (Back/Next) Indicators*/
+}
+
+.carousel-control.right,
+.carousel-control.left { 
+  background-image: none;
+}
+
+.hack-item p {
+  color: #8b8b8b;
+  font-size: 18px;
+}
+
+.carousel-caption .img-responsive {
+  margin: 0 auto;
+}
+
+.carousel-caption {
+  padding: 0;
+}
+
+/* ===================
+    Buttons
+   =================== */
+
+.btn-hack {
+  color: #fff;
+  background-color: #717171;
+  border: 1px solid #717171;
+}
+.btn-hack:hover,
+.btn-hack:focus,
+.btn-hack:active,
+.btn-hack.active,
+.open .dropdown-toggle.btn-hack {
+  color: #fff;
+  background-color: #2f2f2f;
+  border: 1px solid #717171;
+}
+
+/* ===================
+    Colours
+   =================== */
+
+.slide {
+  padding: 75px 15px 30px;
+  background: #2f2f2f;
+}
+
+.slide img {
+  margin: 0 auto;
+}
+
+.colour-1 {
+  color: #8b8b8b;
+  background-color: #242424;
+}
+
+.colour-1 .hack-heading2 {
+  color: #FFFFFF;
+}
+
+.line-colour-1 {
+  border-color: #BBB;
+}
+
+.line-colour-2 {
+  border-color: #4c4e54;
+}
+
+/* ===================
+    Sponsors
+   =================== */
+
+.hack-sponsors ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.hack-sponsors ul li {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 200;
+  font-family: 'Open Sans', sans-serif; /*Modify Font and Weight*/
+}
+
+/* ===================
+    Mentors
+   =================== */
+
+#mentors img,
+#judges img {
+  margin-bottom: 10px;
+
+  -moz-border-radius: 260px;
+  border-radius: 260px;
+}
+
+#mentors a,
+#judges a {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif; /*Modify Font and Weight*/
+}
+
+/* ===================
+    Tables
+   =================== */
+
+.table thead th {
+  min-width: 100px;
+}
+
+/* ===================
+    Spacing
+   =================== */
+
+.top  { margin-top: 2px; }
+.top1 { margin-top: 5px; }
+.top2 { margin-top: 10px; }
+.top3 { margin-top: 15px; }
+.top4 { margin-top: 30px; }
+.top5 { margin-top: 40px; }
+.top6 { margin-top: 60px; }
+.top7 { margin-top: 80px; }
+.top8 { margin-top: 100px; }
+.top9 { margin-top: 150px; }
+
+.both  { margin: 2px 0; }
+.both1 { margin: 5px 0; }
+.both2 { margin: 10px 0; }
+.both3 { margin: 15px 0; }
+.both4 { margin: 30px 0; }
+.both5 { margin: 40px 0; }
+.both6 { margin: 60px 0; }
+.both7 { margin: 80px 0; }
+.both8 { margin: 100px 0; }
+.both9 { margin: 150px 0; }
